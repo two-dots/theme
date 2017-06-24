@@ -1,0 +1,7 @@
+/* @override http://localhost/~argon/twodots/styles/archive.css */
+
+li#nav_archive a {
+	background-position: -216px -52px;
+	z-index: 1500;
+	top: -4px;
+}

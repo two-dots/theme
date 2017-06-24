@@ -1,0 +1,15 @@
+/* @override 
+	http://localhost/~argon/twodots/styles/notes.css
+	http://localhost/~argon/twodots/wordpress/wp-content/themes/twodots/notes.css
+*/
+
+body {
+	/*background-color: #894458;*/
+	background-color: #783f33;
+}
+
+li#nav_notes a {
+	background-position: -108px -52px;
+	z-index: 1500;
+	top: -4px;
+}

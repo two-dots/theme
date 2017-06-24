@@ -1,0 +1,87 @@
+/* @override 
+	http://localhost/~argon/twodots/styles/about.css
+	https://two-dots.com/wordpress/wp-content/themes/twodots/about.css
+*/
+
+body {
+	background-color: #5b5b5b !important;
+}
+
+li#nav_about a {
+	background-position: 0px -52px;
+	z-index: 1500;
+	top: -4px;
+}
+
+#sociallist {
+	width: 426px;
+	height: 100px;
+}
+
+#sociallist li {
+	list-style-type: none;
+	margin: 0;
+}
+
+#sociallist li:before {
+	content: "";
+}
+
+#sociallist li a {
+	background: url(images/social_bar_1.0.png) no-repeat 0 0;
+	height: 0px;
+	padding-top: 90px;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+}
+
+#sociallist li.nav_selected a {
+	cursor: default;
+}
+
+li#social_twitter a {
+	width: 83px;
+	background-position: -5px 10px;
+}
+
+li#social_twitter a:hover {
+	background-position: -5px -102px;
+}
+
+li#social_flickr a {
+	background-position: -90px 10px;
+	width: 78px;
+}
+
+li#social_flickr a:hover {
+	background-position: -90px -87px;
+}
+
+li#social_rss a {
+	width: 80px;
+	background-position: -170px 9px;
+}
+
+li#social_rss a:hover {
+	background-position: -170px -86px;
+}
+
+li#social_creative a {
+	width: 80px;
+	background-position: -250px 10px;
+}
+
+li#social_creative a:hover {
+	background-position: -250px -86px;
+}
+
+li#social_argon a {
+	width: 80px;
+	left: 410px;
+	background-position: -330px 10px;
+}
+
+li#social_argon a:hover {
+	background-position: -330px -86px;
+}

@@ -1,0 +1,9 @@
+/* @override https://two-dots.com/wordpress/wp-content/themes/twodots/style-login.css?v=2 */
+
+body.login{height: auto;}
+body.login {background: #fbfbfb url(images/texture/wood.png) repeat;min-height: 100%;}body.login div#login h1 a {width: 320px !important;height: 180px;padding-bottom: 30px;margin: auto;background: url(images/high-res/404_header-2x.png) no-repeat 0 10px;background-size: 320px 206px;z-index: 20;position: absolute;top: 20px;}
+body.login div#login h1 {z-index: 300;padding-bottom: 150px;}body.login div#login form#loginform {margin-left: 8px;padding: 26px 24px 46px;font-weight: normal;background: #fff;border: 1px solid #e5e5e5;-webkit-box-shadow: rgba(100,100,100,0.7) 0 4px 10px -1px;box-shadow: rgba(100,100,100,0.7) 0 4px 10px -1px;z-index: 1;position: relative;}
+body.login div#login {width: 320px;padding: 50px 0 20px 0;margin: auto;}body.login div#login p#nav a,
+body.login div#login p#backtoblog a {color: #fff !important;}body.login div#login p#backtoblog a:hover, body.login div#login p#nav a:hover {text-decoration: none;}body.login div#login p#nav {text-shadow: none;}
+body.login div#login p#backtoblog {text-shadow: none}
+div#login div#login_error {margin-top: 20px;z-index: 44;}
