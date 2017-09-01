@@ -68,21 +68,21 @@
   
   	 <meta name="twitter:card" content="summary">
   	 <meta name="twitter:site" content="@twodotscomic">
-  	 <meta name="twitter:creator" value="@<?php $temp_post = get_post($post_id);$user_id = $temp_post->post_author; echo the_author_meta( 'twitter', $user_id); ?>" />
+  	 <meta name="twitter:creator" value="@<?php the_author_meta( 'twitter'); ?>" />
   	 <meta name="twitter:title" content="Two-dots: <?php the_title();?>">
-  	 <meta name="twitter:description" content="<?php global $wp_query;$postid = $wp_query->post->ID; echo get_post_meta($postid, 'comic_meta_description', true);?>">
-  	 <meta name="twitter:image" content="https://imgs.two-dots.com/comics/thumbs/<?php echo get_post_meta($post->ID, 'comic_medium', true); ?>">
+  	 <meta name="twitter:description" content="<?php echo get_post_meta(get_the_ID(), 'comic_meta_description', true);?>">
+  	 <meta name="twitter:image" content="https://imgs.two-dots.com/comics/thumbs/<?php echo get_post_meta(get_the_ID(), 'comic_medium', true); ?>">
   	 
   
 	 <meta property="og:title" content="Two-dots: <?php the_title();?>"/> 
 	 <meta property="og:type" content="article"/> 
-	 <meta property="og:image" content="https://imgs.two-dots.com/comics/thumbs/<?php echo get_post_meta($post->ID, 'comic_medium', true); ?>"/> 
-	 <meta property="og:description" content="<?php global $wp_query;$postid = $wp_query->post->ID; echo get_post_meta($postid, 'comic_meta_description', true);?>"/>
+	 <meta property="og:image" content="https://imgs.two-dots.com/comics/thumbs/<?php echo get_post_meta(get_the_ID(), 'comic_medium', true); ?>"/> 
+	 <meta property="og:description" content="<?php echo get_post_meta(get_the_ID(), 'comic_meta_description', true);?>"/>
 	 <meta property="og:url" content="<?php the_permalink(); ?>"/>
 	 <meta property="og:site_name" content="TwoDots"/> 
 	 <meta property="og:locale" content="en_GB" />
 	 <meta property="fb:app_id" content="80654212672"/>
-	 <meta property="article:author" content="<?php $temp_post = get_post($post_id);$user_id = $temp_post->post_author; echo the_author_meta( 'first_name', $user_id); ?>"/>
+	 <meta property="article:author" content="<?php the_author_meta( 'first_name'); ?>"/>
 	 <meta property="article:publisher" content="https://www.facebook.com/pun.workshop"/>
 	 <meta property="article:tag" content="<?php $posttags = get_the_tags(); if ($posttags) { foreach($posttags as $tag) { echo $tag->name . ', '; }}?>"/>
 	 
