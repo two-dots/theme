@@ -64,19 +64,22 @@
 	<!-- OpenGraph [facebook, g+, twitter]
   ================================================== -->
   
-  <?php $twitter_name   = str_replace('@', '', get_the_author_meta('twitter'));?>
-  
+  <?php 
+  $twitter_name   = str_replace('@', '', get_the_author_meta('twitter'));
+  $thumbnail      = get_comic_directory('url', true) . get_post_meta(get_the_ID(), 'comic_medium', true);
+  ?>
+ 
   	 <meta name="twitter:card" content="summary">
   	 <meta name="twitter:site" content="@twodotscomic">
   	 <meta name="twitter:creator" value="@<?php the_author_meta( 'twitter'); ?>" />
   	 <meta name="twitter:title" content="Two-dots: <?php the_title();?>">
   	 <meta name="twitter:description" content="<?php echo get_post_meta(get_the_ID(), 'comic_meta_description', true);?>">
-  	 <meta name="twitter:image" content="https://imgs.two-dots.com/comics/thumbs/<?php echo get_post_meta(get_the_ID(), 'comic_medium', true); ?>">
+  	 <meta name="twitter:image" content="<?php echo $thumbnail; ?>">
   	 
   
 	 <meta property="og:title" content="Two-dots: <?php the_title();?>"/> 
 	 <meta property="og:type" content="article"/> 
-	 <meta property="og:image" content="https://imgs.two-dots.com/comics/thumbs/<?php echo get_post_meta(get_the_ID(), 'comic_medium', true); ?>"/> 
+	 <meta property="og:image" content="<?php echo $thumbnail; ?>"/> 
 	 <meta property="og:description" content="<?php echo get_post_meta(get_the_ID(), 'comic_meta_description', true);?>"/>
 	 <meta property="og:url" content="<?php the_permalink(); ?>"/>
 	 <meta property="og:site_name" content="TwoDots"/> 

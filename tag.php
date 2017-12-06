@@ -29,7 +29,7 @@ Template Name: Tag Page
 		<div class="tag_box">
 			<a href="<?php the_permalink() ?>" alt="comic: <?php the_title(); ?>">
 			<div class="thumbnail">
-				<img class="lazy" src="<?php bloginfo('stylesheet_directory'); ?>/images/texture/groovepaper.png" data-original="https://imgs.two-dots.com/comics/thumbs/<?php echo get_post_meta($post->ID, 'comic_thumb', true); ?>">
+				<img class="lazy" src="<?php bloginfo('stylesheet_directory'); ?>/images/texture/groovepaper.png" data-original="<?php echo get_comic_directory('url', true) . get_post_meta($post->ID, 'comic_thumb', true); ?>">
 				<h3><?php the_title(); ?></h3>
 			</div>
 			</a>
