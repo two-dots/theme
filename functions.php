@@ -44,11 +44,6 @@ function get_comic_layout() {?>
       </div>
       
     <div id="social_container" class="border-radius">
-      <div id="social_content" class="">
-        <a class="btn social" target="_blank" title="share on twitter" href="https://twitter.com/intent/tweet?text=<?php the_title();?>&url=<?php the_permalink(); ?>&via=<?php the_author_meta( 'twitter'); ?>"><i class="ss-icon ss-social-circle ss-twitter"></i></a>
-        <a class="btn social" target="_blank" title="share on facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink(); ?>"><i class="ss-icon ss-social-circle ss-facebook"></i></a>
-        <a class="btn" target="_blank" title="share on google+" href="https://plus.google.com/share?url=<?php the_permalink(); ?>"><i class="ss-icon ss-social-circle ss-googleplus"></i></a>
-      </div>
     </div>
     <div class="clear"><p></p></div></div>
     <hr />
