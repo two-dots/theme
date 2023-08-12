@@ -68,22 +68,14 @@ function get_comic_layout() {?>
       </div>
     
       <div id="about" class="border-radius">
-        <div class="block start"><h2>Hey, what is this thing?</h2></div>
-        <div class="block second">
-          <p>Two Dots is a snazzy doodle & webcomic collaboration between NowOverAndOut & B.D; a pun-making, kite flying, doodle producing duo focusing on science, time travel, and the occasional cow.</p>
-        </div>
-  
-        <div class="block profile nowoverandout">
-          <div class="portrait"><a href="<?php echo home_url(); ?>/author/nowoverandout/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/high-res/nowoverandout-2x.png" width="80" height="108" alt="Drawing of NowOverAndOut" class="border-radius"></a></div>
-          <p>As well as being a science-wielding feminist vegan bee-keeper, <a href="<?php echo home_url(); ?>/author/nowoverandout/" title="author page for nowoverandout">NowOverAndOut</a> also makes pretty good balloon animals.</p>
-        </div>
-        
-        <div class="block profile ben">
-          <div class="portrait"><a href="<?php echo home_url(); ?>/author/bd/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/high-res/Ben-2x.png" width="80" height="108" alt="Drawing of B.D" class="border-radius"></a></div>
-          <p><a href="<?php echo home_url(); ?>/author/bd/" title="author page for B.D">B.D.</a> is the kind of guy who likes to look for precious metals in exotic locations. That's his thing. That and cookies.</p>
-        </div>
+        <div class="block start"><h2>Hey, what <i>was</i> this thing?</h2></div>
+		    <div class="block second">
+				<p>Two Dots was a snazzy doodle & webcomic in the era when that kind of thing was kind of cool (and when drawing something dumb seemed like the perfect excuse to avoid writing a university paper about rocks).</p>
+				<p>It was both a collaboration between a pun-making, kite flying, doodle producing duo, and for argon who put everything together and then had to fix things when I broke it, probably an eternal struggle. </p>
+				<p></p>
+			</div>
       </div>
-    </div>  
+  
     
 <?php
 }
