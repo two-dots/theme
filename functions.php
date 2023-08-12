@@ -72,7 +72,7 @@ function get_comic_layout() {?>
 		    <div class="block second">
 				<p>Two Dots was a snazzy doodle & webcomic in the era when that kind of thing was kind of cool (and when drawing something dumb seemed like the perfect excuse to avoid writing a university paper about rocks).</p>
 				<p>It was both a collaboration between a pun-making, kite flying, doodle producing duo, and for argon who put everything together and then had to fix things when I broke it, probably an eternal struggle. </p>
-				<p></p>
+				<p>While a lot of comics were made and published on this site, I've kept only a few of my favourites that embarrass me the least.</p>
 			</div>
       </div>
   
