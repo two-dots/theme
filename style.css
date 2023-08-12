@@ -823,22 +823,21 @@ img.related-thumbnail {
 	margin: 15px 0 0 0;}
 
 .start {
-	width: 130px;
+	width: 100%;
 	margin-right: 10px;
-	min-height: 148px;
 	background-color: rgba(158,159,159,0.22);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#38B4B490,endColorstr=#38B4B490);
 	zoom: 1;}
 
 .start h2 {
-	margin: 12% 0 0 7px;}
+	margin: 3% 0 0 7px;}
 
 .second {
-	width: 200px;}
+	width: 100%;}
 
 .second p {
 	margin: 21px 0 10px 0;
-	width: 190px;}
+	width: 80%;}
 
 footer {
 	margin: auto;
