@@ -7,7 +7,7 @@
 			
 			
 			<footer>
-				<p>Powered by <a href="https://wordpress.org/">WordPress</a> &amp; <a href="http://andrewnaylor.co.uk/">argon</a> <br > Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a> &copy; <a href="https://twitter.com/syntheticfuture/"><strong>B.D.</strong></a> &amp; <a href="https://twitter.com/NowOverAndOut/"><strong>NowOverAndOut</strong></a> 2009 - <?php echo date('Y'); ?></p>
+				<p>Powered by <a href="https://wordpress.org/">WordPress</a> &amp; argon! <br > Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a> &copy; TwoDots 2009 - <?php echo date('Y'); ?></p>
 			</footer>
 
 	<?php /* "I'm sorry, I can't let you do that Dave" */ ?>
